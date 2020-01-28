@@ -54,7 +54,7 @@ Tambien se pueden utilizar siluetas y otros colores
 
 >wordcloud2(mmtexto, figPath = "gato.png", size= 0.5, color = "random-darks", backgroundColor = "yellow")
 
-![MM2](mm nube fondo amarillo.png)
+![MM2](mmfondoamarillo.png)
 
 Hagamos el de Cristina Fernández
 >tweets_cfk<-get_timeline("CFKArgentina", n=1500)

@@ -50,10 +50,9 @@ Para hacer una nube de palabras sencilla
 Tambien se pueden utilizar siluetas y otros colores 
 >wordcloud2(mmtexto, figPath = "gato.png", size = 0.5)
 
+![MM](nubemmcolores.png)
+
 >wordcloud2(mmtexto, figPath = "gato.png", size= 0.5, color = "random-darks", backgroundColor = "yellow")
-
-![MM](nubemmcolores.png) 
-
 
 ![MM2](mm nube fondo amarillo.png)
 

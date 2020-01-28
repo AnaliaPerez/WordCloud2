@@ -52,7 +52,7 @@ Tambien se pueden utilizar siluetas y otros colores
 
 >wordcloud2(mmtexto, figPath = "gato.png", size= 0.5, color = "random-darks", backgroundColor = "yellow")
 
-![MM](nubemmcolores.png, width="200") 
+![MM](nubemmcolores.png) 
 
 ![mm](mm nube fondo amarillo.png)
 

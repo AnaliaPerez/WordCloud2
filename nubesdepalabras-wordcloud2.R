@@ -43,13 +43,13 @@ mmtexto <-mm_text %>%
 #probamos una
 wordcloud2(mmtexto, size = 0.7)
 
-#y otra, con una silueta especial ;)
+#y otra, con una silueta especial 
 wordcloud2(mmtexto, figPath = "gato.png", size = 0.5)
 
 #otros colores
 wordcloud2(mmtexto, figPath = "gato.png", size= 0.5, color = "random-darks", backgroundColor = "yellow")
 
-#hagamos el de Kris
+#hagamos el de Cristina Fernández
 tweets_cfk<-get_timeline("CFKArgentina", n=1500)
 
 cfk_text <- tweets_cfk %>% 
@@ -64,7 +64,7 @@ wordcloud2(cfk_text, figPath= "36189.png", size = 0.5)
 
 wordcloud2(cfk_text, size = 0.5)
 
-#y a Alberto también 
+#y a Alberto Fernández también 
 tweets_AF<-get_timeline("alferdez", n=1500)
 
 AF_text <- tweets_AF %>% 

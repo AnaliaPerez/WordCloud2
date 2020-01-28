@@ -1,5 +1,5 @@
-#Nubes de palabras hechas con tweets
-###los tweets fueron capturados con el paquete Rtweet, las nubes fueron hechas con WordCloud2
+# Nubes de palabras hechas con tweets
+### los tweets fueron capturados con el paquete Rtweet, las nubes fueron hechas con WordCloud2
 *18-05-19*
 
 Primero instalamos todas las librerías necesarias, son varias porque tenemos que procesar texto
@@ -52,7 +52,8 @@ Tambien se pueden utilizar siluetas y otros colores
 
 >wordcloud2(mmtexto, figPath = "gato.png", size= 0.5, color = "random-darks", backgroundColor = "yellow")
 
-![MM](nubemmcolores.png) ![mm](mm nube fondo amarillo.png)
+![MM](nubemmcolores.png) 
+![mm](mm nube fondo amarillo.png)
 
 Hagamos el de Cristina Fernández
 >tweets_cfk<-get_timeline("CFKArgentina", n=1500)

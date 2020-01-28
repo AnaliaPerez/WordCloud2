@@ -54,7 +54,8 @@ Tambien se pueden utilizar siluetas y otros colores
 
 ![MM](nubemmcolores.png) 
 
-![mm](mm nube fondo amarillo.png)
+
+![MM2](mm nube fondo amarillo.png)
 
 Hagamos el de Cristina Fernández
 >tweets_cfk<-get_timeline("CFKArgentina", n=1500)

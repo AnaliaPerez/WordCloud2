@@ -4,13 +4,19 @@
 
 Primero instalamos todas las librerías necesarias, son varias porque tenemos que procesar texto
 >library(devtools)
+
 >devtools::install_github("lchiffon/wordcloud2")
 
 >library(tidytext)
+
 >library(tm)
+
 >library(dplyr)
+
 >library(stringr)
+
 >library(rtweet)
+
 >library(wordcloud2)
 
 Para extraer los tweets, tenés que tener acceso a la API de Twitter. Es un proceso sencillo, tras pedirlo te dará unas claves que usarás a continuación:

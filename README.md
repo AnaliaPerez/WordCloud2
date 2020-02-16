@@ -2,10 +2,8 @@
 ### los tweets fueron capturados con el paquete Rtweet, las nubes fueron hechas con WordCloud2
 *18-05-19*
 
-Primero instalamos todas las librerías necesarias, son varias porque tenemos que procesar texto
+Primero invocamos todas las librerías necesarias (y si no las tenemos las instalamos), son varias porque tenemos que procesar texto
 >library(devtools)
-
->devtools::install_github("lchiffon/wordcloud2")
 
 >library(tidytext)
 
@@ -18,6 +16,12 @@ Primero instalamos todas las librerías necesarias, son varias porque tenemos qu
 >library(rtweet)
 
 >library(wordcloud2)
+
+para instalar Wordcloud2:
+
+
+>devtools::install_github("lchiffon/wordcloud2")
+
 
 Para extraer los tweets, tenés que tener acceso a la API de Twitter. Es un proceso sencillo, tras pedirlo te dará unas claves que usarás a continuación:
 >create_token(
